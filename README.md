@@ -188,7 +188,7 @@ $page->analytics()->visitors(7);  // visitors, last 7 days
 
 Your data is counted from day one, so Pro shows the full history as soon as you activate it.
 
-Pro needs a license key on live sites: [buy a license](https://market.owebstudio.com/checkout/buy/2b5ebedd-a30c-48d5-9142-7adaea60bdfe) (€39.99, up to 5 sites, updates for life), then open the Panel's System view, click "Free" next to Analytics and enter the key. On local and staging sites Pro works without a key.
+Pro needs a license key on live sites: [buy a license](https://market.owebstudio.com/checkout/buy/2b5ebedd-a30c-48d5-9142-7adaea60bdfe) (€39.99, up to 3 sites, updates for life), then open the Panel's System view, click "Free" next to Analytics and enter the key. On local and staging sites Pro works without a key.
 
 ### Countries
 
