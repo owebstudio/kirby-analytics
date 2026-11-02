@@ -1,0 +1,8 @@
+{
+  "name": "kirby-analytics",
+  "private": true,
+  "scripts": {
+    "dev": "npx -y kirbyup@4.0.0-beta.1 dev src/index.js",
+    "build": "npx -y kirbyup@4.0.0-beta.1 src/index.js"
+  }
+}

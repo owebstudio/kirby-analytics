@@ -1,0 +1,59 @@
+{
+  "name": "owebstudio/kirby-analytics",
+  "description": "Self-hosted, cookieless visitor statistics for Kirby with a native Panel dashboard. Free, with an optional Pro license.",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "keywords": [
+    "owebstudio",
+    "owebstudio-plugin",
+    "kirby",
+    "kirby6",
+    "kirby-plugin",
+    "analytics",
+    "statistics",
+    "privacy",
+    "cookieless"
+  ],
+  "homepage": "https://github.com/owebstudio/kirby-analytics",
+  "support": {
+    "issues": "https://github.com/owebstudio/kirby-analytics/issues",
+    "source": "https://github.com/owebstudio/kirby-analytics"
+  },
+  "authors": [
+    {
+      "name": "oweb studio",
+      "homepage": "https://github.com/owebstudio"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "ext-pdo_sqlite": "*",
+    "getkirby/composer-installer": "^1.2"
+  },
+  "require-dev": {
+    "owebstudio/kirby-license": "^1.1",
+    "phpunit/phpunit": "^12.0"
+  },
+  "conflict": {
+    "getkirby/cms": "<6.0"
+  },
+  "autoload-dev": {
+    "classmap": [
+      "lib/",
+      "tests/Support/"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "getkirby/composer-installer": true
+    },
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "kirby": {
+      "compatible": "^6.0"
+    }
+  }
+}
