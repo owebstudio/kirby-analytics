@@ -2,6 +2,7 @@
   "name": "owebstudio/kirby-analytics",
   "description": "Self-hosted, cookieless visitor statistics for Kirby with a native Panel dashboard. Free, with an optional Pro license.",
   "type": "kirby-plugin",
+  "version": "1.0.0",
   "license": "MIT",
   "keywords": [
     "owebstudio",
